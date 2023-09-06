@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Inter&display=swap');
+
+@media (min-width:1200px){
+    body{
+        font-family:'Inter',sans-serif,Arial ;
+        font-weight: bold;
+        color:#000000;
+    }
+
+    header{
+        background-color: #ECF1ED;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: auto;
+        max-height: 100px;
+    }
+
+    header nav{
+        margin: 0 50px;
+    }
+    
+    
+    header .caixa{
+        height: 10px;
+        width: 130px;
+        border: 2px solid #7C96A5;
+        border-radius: 45px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        margin: 25px 30px;
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    header #linha{
+        width: 0;
+        height: 100px; 
+        border-left: 2px solid #000000; 
+        margin: 0 5px; 
+    }
+
+    header h1{
+        margin: 36px 9px;
+        font-size: 25px;
+    }
+
+    header img{
+        float:left;
+        margin: 31px; 
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 55px;
+        max-height: 100px;
+    }
+
+    main #estrada{
+        background-image: url(../img/porto\ 4\ 1.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        float:left;
+        height:540px;
+        width: 1306px;;
+    }
+    aside #fundo{
+        background-image: url(../img/Rectangle\ 13.png);
+        height:540px;
+        width:620px;
+        margin-left:50px;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    aside #fundo p{
+        font-size: 40px;
+        padding:25px 30px;
+        text-align: left;
+    }
+
+    aside #fundo p span{
+        color:#01A1FD;
+    }
+
+    aside #fundo img{
+        margin-top:-193px;
+    }
+
+    aside #fundo h2{
+        font-size: 30px;
+        margin-top:252px;
+        padding-left: 189px;
+    }
+
+  
+}
+
+    
