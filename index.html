@@ -1,94 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRYMF Projekt</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilo.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="nav-list">
-                <li class="nav-item">Seguro</li>
-                <li class="nav-item">Planos</li>
-                <li class="nav-item">Desenvolvedores</li>
-                <li class="nav-item">Links</li>
-                <li class="nav-item">Ajuda</li>
-            </ul>
-        </nav>
-        <div id ="linha"></div>
-        <h1>Bem vindo novamente!</h1> 
-        <img src = "img/Logo_Holding_PortoSeguro_Positivo 2.png">
-    </header>
-    
-    <section class= "topo">
-        <div id = "estrada"></div>
-        <aside>
-            <div id = "fundo">
-            <p>Pensando na melhora do nosso atendimento, contamos com o nosso mais novo integrante: <span>Portinho</span>!</p>
-            <h2>Basta clicar no Portinho que ele te atende!</h2>
-            <div id = "portinho"></div>
-        </div>
-        </aside>
-    </section>
-    <main>
-        <div class = "informações">
-                <div id = "integrantes">
-                    <h1><span>TRYMF PROJEKT</span></h1>
-                    <h1>Desenvolvedores</h1>
-                    <ul>
-                        <li>Mateus Viana Batista - RM 99530</li>
-                        <li>Michael José Bernardi da Silva - RM 99409</li>
-                        <li>Ricardo Correia Temple - RM 99721</li>
-                        <li>Thábata Orbeteli Viotto Santos - RM 550268</li>
-                        <li>Yago Taguchi Ruksenas - RM 97827</li>
-                    </ul>
-                </div>
-                <div id = "links">
-                    <h1>LINKS</h1>
-                    <ul>
-                        <li><span>E-mail: </span>trymfproject@gmail.com</li>
-                        <br>
-                        <li><span>Repositório Github:</span><br><br>
-                            https://github.com/thabataorbeteli/TRYMF_Projekt.git</li>
-                    </ul>
-                </div>
-        </div>
-        <div class = acionamento>
-            <div id = "caixa">
-                <h1><span>ACIONAR SEGURO</span></h1>
-                <ul>
-                    <li> 
-                        <label for="placaVeiculo">Placa do Veículo:</label>
-                        <input type="text" id="placaVeiculo" placeholder="Placa do Veículo">
-                    </li>
-                    <li>
-                        <label for="cpfCnpj">CPF ou CNPJ:</label>
-                        <input type="text" id="cpfCnpj" placeholder="CPF ou CNPJ">
-                    </li>
-                    <li>
-                        <button name="acionarButton"><span>ACIONAR</span></button>
-                    </li>
-                 </ul>
-            </div>
-            <div id = "chatbot">
-                <div id = "conversa"></div>
-            </div>
-        </div>
-    </main>
-    <section class ="imagens">
-        <img id = "imagem1" src = "img/Cetico-800x500px_Prancheta-1-scaled-1200x628-cropped 1.png">
-        <img id = "imagem2" src = "img/porto-1140x641 1.png">
-    </section>
-    <footer>
-        <div id="plataformas"></div>    
-        <div id="logos"></div>
-        <div id="app"></div>
-        <div id="sistemas"></div>
-    </footer>
-
-    <script src="input.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRYMF PROJEKT</title>
+    <link rel="stylesheet" href="css/reset.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

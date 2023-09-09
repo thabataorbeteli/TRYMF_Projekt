@@ -1,0 +1,198 @@
+footer{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    height: 35px;
+    width:100%;
+    margin-top:80px;
+    display: inline-flex;
+}
+
+footer #plataformas{
+    background-image: url(../img/Porto\ em\ todas\ as\ plataformas\ digitais.png);
+    background-repeat: no-repeat;
+    width: 279px;
+    margin: 10px;
+    margin-left: 85px;
+}
+
+footer #logos{
+    background-image: url(../img/image\ 1.png);
+    background-repeat: no-repeat;
+    width: 279px;
+    margin-left: 19px;
+}
+
+footer #app{
+    background-image: url(../img/baixe\ o\ app.png);
+    background-repeat: no-repeat;
+    width: 279px;
+    margin: 10px;
+    margin-left: 27px;
+    margin-right: -172px;
+}
+
+footer #sistemas{
+    background-image: url(../img/image\ 3.png);
+    background-repeat: no-repeat;
+    width: 279px;
+}
+
+footer #logopreto{
+    background-image: url(../../../public/img/image\ 2.png);
+    background-repeat: no-repeat;
+    width: 117px;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media (min-width:360px) and (max-width:599px){
+    
+    footer{
+        margin-top: 385px;
+        width: 578px
+    }
+    
+    footer #plataformas{
+        width: 0;
+        margin: 0;
+        margin-left: 0;
+    }
+    
+    footer #logos{
+        width: 279px;
+        margin-left: 150px;
+    }
+    
+    footer #app{
+        width: 0;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    footer #sistemas{
+        width: 0;
+    }
+    
+    footer #logopreto{
+        margin-left: 0;
+        width:0;
+    }
+}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width:600px) and (max-width:767px){
+
+    footer{
+        margin-top:326px;
+    }
+    
+    footer #plataformas{
+        width:0;
+        margin: 0;
+        margin-left: 0x;
+    }
+    
+    footer #logos{
+        width: 285px;
+        margin-left: 14px
+    }
+    
+    footer #app{
+        width: 0;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    footer #sistemas{
+        width: 0;
+    }
+
+    footer #logopreto{
+        width: 128px;
+        margin-left: 183px;
+    }
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    footer{
+        margin-top:225px;
+    }
+    
+    footer #plataformas{
+        width:0;
+        margin: 0;
+        margin-left: 0x;
+    }
+    
+    footer #logos{
+        width: 531px;
+    }
+    
+    footer #app{
+        width: 0;
+    }
+
+    footer #sistemas{
+        width: 0;
+        margin-left: 0;
+    }
+
+    footer #logopreto{
+        margin-left: 236px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    
+    footer #plataformas{
+        width: 370px;
+        margin-left: 5px;
+    }
+    
+    footer #logos {
+        margin-left: -60px;
+    }
+
+    footer #app {
+        margin-left: 28px;
+        margin-right: -160px;
+    }
+
+    footer #sistemas {
+        width:0;
+    }
+
+    footer #logopreto {
+        margin-left: 28px;
+        margin-right: -160px;
+    }
+}
+
+/* Large devices (large laptops/desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    footer #plataformas{
+        width: 370px;
+        margin-left: 5px;
+    }
+    
+    footer #logos {
+        margin-left: -60px;
+    }
+
+    footer #app {
+        margin-left: 28px;
+        margin-right: -160px;
+    }
+
+    footer #logopreto {
+        margin-left: 28px;
+        margin-right: -160px;
+    }
+
+    
+}
