@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Inter&display=swap');
 
+
 body{
     font-family:'Inter',sans-serif,Arial;
     font-weight: bold;
@@ -45,7 +46,6 @@ h1{
     text-align: center;
 }
 
-
 header img{
     max-width: 100%;
     height: 24px;
@@ -69,7 +69,6 @@ header img{
 .topo aside{
     margin-left: 50px;
 }
-
 
 #fundo{
     background-image: url(../img/Rectangle\ 13.png);
@@ -109,7 +108,6 @@ main{
     flex-direction: column;
 }
 
-
 #integrantes , #links {
     background-image: url(../img/Rectangle\ 24.png);
     background-size: cover;
@@ -123,7 +121,6 @@ main{
     padding-top: 9px;
     padding-bottom: 42px;
 }
-
 
 .acionamento{
     display: flex;
@@ -147,7 +144,12 @@ main{
 }
 
 #caixa ul li{
-    padding:10px;
+    padding:30px;
+}
+
+#caixa ul li label{
+    font-size: 25px;
+    text-align: center;
 }
 
 #caixa ul li input{
@@ -156,7 +158,6 @@ main{
 }
 
 #caixa ul li button{
-
     width: 245px;
     height: 28px;
     margin-top: 50px;
@@ -249,13 +250,491 @@ footer #sistemas{
     width: 279px;
 }
 
-footer #porto{
-   background-image: url(../img/image\ 2.png);
-    background-repeat: no-repeat;
-    width: 279px;
-    margin-left: 165px;
-}
+ /* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px){
 
-
-
+    header {
+        flex-direction: column;
+    }
     
+    .nav-list{
+        margin-top:0;
+    }
+
+    .nav-item{
+        width: 135px;
+    }
+    
+    #linha{
+        height: 0; 
+        border-left: 0; 
+    }
+
+    h1{
+        margin: 10px 0;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    header img{
+        width: 95px;
+        height: auto;
+        margin: -34px 465px;
+    }
+
+    .topo{
+        flex-direction: column;
+    }
+
+    #estrada {
+        height: 238px;
+    }
+    
+    .topo aside{
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    #fundo{
+        width:600px;
+    }
+    
+    main{
+        margin-top: 30px;
+        flex-direction: column;
+        margin-left: 85px;
+    }
+    
+    #integrantes , #links {
+        height: 150px;
+    }
+    
+    .acionamento{
+        flex-direction: column;
+   }
+    
+    #caixa , #chatbot{
+        width: 365px;
+        margin-left: 30px;
+        margin-top:18px
+    }
+    
+    #caixa ul li button{
+        margin-top: 30px;
+    }
+    
+    #conversa{
+        margin-top: 17px;
+        margin-left: 131px;
+        transform: scale(0.9);
+    }
+    
+    #fundo h2{
+        font-size: 25px;
+        margin-top: 144px;
+        padding-left: 144px;
+    }
+    
+    #section{
+        height: 409px;
+    }
+    
+    .imagens{
+        margin-top: 520px;
+        background-color: white;
+        flex-direction: column;
+    }
+    
+    #imagem1 , #imagem2 {
+        width: 197px;
+        transform: scale(2.3);
+        margin-left: 291px;
+        margin-top: 133px;
+    }
+    
+    #imagem2{
+        width: 268px;
+        margin-left: 266px;
+        margin-top: 162px;
+    }
+    
+    footer{
+        margin-top:225px;
+    }
+    
+    footer #plataformas{
+        width:0;
+        margin: 0;
+        margin-left: 0x;
+    }
+    
+    footer #logos{
+        width: 279px;
+    }
+    
+    footer #app{
+        width: 0;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    footer #sistemas{
+        width: 0;
+    }
+    
+} 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media (min-width: 768px) {
+
+    header {
+        flex-direction: column;
+    }
+    
+    .nav-list{
+        margin-top:0;
+    }
+
+    .nav-item{
+        width: 135px;
+    }
+    
+    #linha{
+        height: 0; 
+        border-left: 0; 
+    }
+
+    h1{
+        margin: 10px 0;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    header img{
+        width: 95px;
+        height: auto;
+        margin: -34px 541px;
+    }
+
+    .topo{
+        flex-direction: column;
+    }
+
+    #estrada {
+        height: 313px;
+    }
+    
+    .topo aside{
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    #fundo{
+        width:765px;
+    }
+    
+    main{
+        margin-top: 30px;
+        flex-direction: column;
+        margin-left: 85px;
+    }
+    
+    #integrantes , #links {
+        height: 192px;
+        width: 423px;
+        margin-left: 94px;
+    }
+
+    .acionamento{
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 85px;
+   }
+    
+    #caixa , #chatbot{
+        width: 365px;
+        margin-left: 30px;
+        margin-top:18px;
+        height: 361px;
+    }
+
+    #caixa ul li button{
+        margin-top: 30px;
+    }
+    
+    #conversa{
+        margin-top: 17px;
+        margin-left: 131px;
+        transform: scale(0.9);
+    }
+    
+    #fundo h2{
+        font-size: 25px;
+        margin-top: 144px;
+        padding-left: 144px;
+    }
+    
+    #section{
+        height: 409px;
+    }
+    
+    .imagens{
+        margin-top: 625px;
+        background-color: white;
+        flex-direction: column;
+    }
+    
+    #imagem1 , #imagem2 {
+        width: 197px;
+        transform: scale(2.3);
+        margin-left: 291px;
+        margin-top: 133px;
+    }
+    
+    #imagem2{
+        width: 268px;
+        margin-left: 266px;
+        margin-top: 162px;
+    }
+    
+    footer{
+        margin-top:225px;
+    }
+    
+    footer #plataformas{
+        width:0;
+        margin: 0;
+        margin-left: 0x;
+    }
+    
+    footer #logos{
+        width: 531px;
+    }
+    
+    footer #app{
+        width: 344px;
+        margin: 9px;
+        margin-left: 12px;
+        margin-right: 0;
+    }
+    footer #sistemas{
+        width: 555px;
+        margin-left: -80px;
+    }
+    
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media (min-width: 992px){
+
+    header img{
+        margin: -34px 781px;
+    }
+
+    #estrada {
+        height: 398px;
+    }
+    
+    #fundo{
+        width:975px;
+    }
+    
+    .informações{
+        flex-direction:row;
+        margin-left: -143px;
+    }
+    
+    #links{
+        height: 192px;
+        width: 423px;
+        margin-left: 59px;
+    }
+    
+    .acionamento{
+        flex-direction: row;
+        margin-left: -55px;
+   }
+    
+    #caixa , #chatbot{
+        width: 365px;
+        margin-left: 58px;
+        margin-top: 43px;
+        height: 394px;
+    }
+
+    #chatbot{
+        margin-left:102px;
+    }
+    
+    #conversa{
+        margin-top: 73px;
+        margin-left: 129px;
+        transform: scale(1.5);
+    }
+    
+    .imagens{
+        margin-top: 240px;
+        height: 206px;
+        margin-left: 167px;
+        flex-direction: row;
+    }
+    
+    #imagem1 , #imagem2 {
+        width: 302px;
+        transform: scale(1.2);
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+    
+    #imagem2{
+        width: 406px;
+        margin-left: -283px;
+        margin-top: 5px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+    
+    footer #plataformas{
+        width: 510px;
+        margin: 10px;
+    }
+    
+ }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 1200px){
+
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-list{
+        margin:0;
+        padding: 0;
+    }
+
+    header h1{
+        margin-top: 24px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #linha{
+        height: 100px; 
+        border-left: 2px solid #000000; 
+    }
+
+    header img{
+        margin: 38px 3px;
+    }
+
+    .topo{
+        flex-direction: row;
+    }
+
+    .topo aside{
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #estrada {
+        height: 317px;
+        width: 777px;
+    }
+    
+    #fundo{
+        width: 394px;
+        margin-left: 16px;
+        height: 319px;
+    }
+
+    #fundo p{
+        font-size: 23px;
+        padding: 7px 24px;
+        text-align: left;
+    }
+    
+    #fundo h2{
+        font-size: 22px;
+    }
+
+    #portinho {
+        background-image: url(../img/Portinho\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 139px;
+        margin-top: -115px;
+    }
+
+    .informações{
+        flex-direction:row;
+        margin-left: -143px;
+    }
+    
+
+    #integrantes, #links{
+        height: 250px;
+        width: 445px;
+        margin-left: 219px;
+    }
+
+    #links{
+        margin-left: 140px;
+    }
+    
+    .acionamento{
+        margin-top: 19px;
+        margin-left: 79px;
+   }
+    
+    #caixa , #chatbot{
+        width: 365px;
+        margin-left: 0px;
+        margin-top: 43px;
+        height: 465px;
+    }
+
+    #chatbot{
+        margin-left:214px;
+    }
+    
+    #conversa{
+        margin-top: 113px;
+        margin-left: 127px;
+        transform: scale(1.8);
+    }
+    
+    .imagens{
+        margin-top: 370px;
+        height: 206px;
+        margin-left: 167px;
+        flex-direction: row;
+    }
+    
+    #imagem1 , #imagem2 {
+        width: 377px;
+        transform: scale(1.35);
+        margin-left: 17px;
+        margin-top: 137px;
+    }
+    
+    #imagem2{
+        width: 500px;
+        margin-left: -226px;
+        margin-top: 136px;
+    }
+
+    footer{
+        margin-top:160px;
+    }
+
+    footer #plataformas{
+        width: 402px;
+        margin: 10px;
+    }
+    
+ }

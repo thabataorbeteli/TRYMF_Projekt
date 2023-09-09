@@ -12,10 +12,10 @@
         <nav>
             <ul class="nav-list">
                 <li class="nav-item">Seguro</li>
-                <li class="nav-item">Fale conosco</li>
                 <li class="nav-item">Planos</li>
+                <li class="nav-item">Desenvolvedores</li>
+                <li class="nav-item">Links</li>
                 <li class="nav-item">Ajuda</li>
-                <li class="nav-item">Integrantes</li>
             </ul>
         </nav>
         <div id ="linha"></div>
@@ -61,14 +61,16 @@
                 <h1><span>ACIONAR SEGURO</span></h1>
                 <ul>
                     <li> 
-                        <h1>Placa do Veículo:</h1>
-                        <input type="Placa do Veículo">
+                        <label for="placaVeiculo">Placa do Veículo:</label>
+                        <input type="text" id="placaVeiculo" placeholder="Placa do Veículo">
                     </li>
                     <li>
-                        <h1>CPF ou CNPJ:</h1>
-                        <input type="CPF ou CNPJ">
+                        <label for="cpfCnpj">CPF ou CNPJ:</label>
+                        <input type="text" id="cpfCnpj" placeholder="CPF ou CNPJ">
                     </li>
-                    <li><button><span>ACIONAR</span></button></li>
+                    <li>
+                        <button name="acionarButton"><span>ACIONAR</span></button>
+                    </li>
                  </ul>
             </div>
             <div id = "chatbot">
@@ -85,7 +87,8 @@
         <div id="logos"></div>
         <div id="app"></div>
         <div id="sistemas"></div>
-        <div id="porto"></div>
     </footer>
+
+    <script src="input.js"></script>
 </body>
 </html>
