@@ -1,0 +1,314 @@
+.principal{
+    margin-top: 95px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 500px;
+}
+
+.informações{
+    display: flex;
+    flex-direction: column;
+}
+
+#integrantes , #links {
+    background-image: url(../img/Rectangle\ 24.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 418px;
+    height: 255px;
+    margin-top: 11px;
+    text-align: center;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    padding-top: 9px;
+    padding-bottom: 42px;
+}
+#links{
+    width: 415px;
+    height: 174px;
+    padding-bottom: 22px;
+}
+
+.acionamento{
+    display: flex;
+    height: 635px;
+}
+
+#caixa , #chatbot{
+    background-color: #ECF1EC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 475px;
+    height: 563px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 52px;
+    border-radius:25px;
+}
+   
+#caixa ul{
+    text-align: center;
+}
+
+#caixa ul li{
+    padding:19px;
+}
+
+#caixa ul li label{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#caixa ul li input{
+    width: 245px;
+    height: 29px;
+}
+
+#caixa ul li button{
+    width: 245px;
+    height: 34px;
+    margin-top: 38px;
+    background-color: #0191D7;
+}
+
+#caixa ul li button span{
+    font-weight: bold;
+}
+
+#integrantes h1 , #links h1 , #caixa h1{
+    font-size: 1.5em;
+    margin-top: 18px;
+}
+
+#conversa{
+    background-image: url(../img/chatbot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 160px;
+    width: 118px;
+    height: 243px;
+    transform: scale(2);
+    margin-left: 180px;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media (min-width:360px) and (max-width:599px){
+
+    .principal{
+        flex-direction: column;
+        margin-left: 107px;
+        margin-top: 17px;
+    }
+    
+    .informações{
+        margin-top: -72px;
+    }
+    
+    #integrantes , #links {
+        width: 347px;
+        height: 161px;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    #links ul li label{
+        font-size: 1.5em;
+    }
+    
+    .acionamento{
+        margin-top: 29px;
+        margin-left: -102px;
+        flex-direction: column;
+    }
+    
+    #caixa , #chatbot{
+        height: 473px;
+        width: 345px;
+        margin-left: 103px;
+    }
+
+    #chatbot{
+        margin-top: 28px;
+    }
+       
+    #conversa{
+        margin-top: 17px;
+        width: 131px;
+        height: 282px;
+        transform: scale(1);
+        margin-left: 106px;
+    }
+   
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width:600px) and (max-width:767px){
+    
+    .principal{
+        margin-top: 30px;
+        flex-direction: column;
+        margin-left: 85px;
+    }
+
+    .informações{
+        margin-left: 10px;
+    }
+    
+    #integrantes , #links {
+        height: 151px;
+        width: 390px;
+        margin-left: 24px;
+    }
+    
+    .acionamento{
+        flex-direction: column;
+        margin-left: 10px;
+   }
+    
+    #caixa , #chatbot{
+        width: 365px;
+        margin-left: 30px;
+        margin-top:18px
+    }
+    
+    #caixa ul li button{
+        margin-top: 30px;
+    }
+    
+    #conversa{
+        margin-top: 17px;
+        margin-left: 131px;
+        transform: scale(0.9);
+    }
+   
+    #section{
+        height: 409px;
+    }
+    
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .principal{
+        margin-top: 30px;
+        flex-direction: column;
+        margin-left: 85px;
+    }
+    
+    #integrantes , #links {
+        height: 192px;
+        width: 423px;
+        margin-left: 94px;
+    }
+    
+    .acionamento{
+        display: flex;
+        height: 635px;
+        margin-left: -86px;
+    }
+
+    #caixa , #chatbot{
+        width: 360px;
+        margin-left: 19px;
+        margin-top: 18px;
+        height: 402px;
+    }
+
+    #caixa ul li button{
+        margin-top: 30px;
+    }
+    
+    #conversa{
+        margin-top: 79px;
+        margin-left: 124px;
+        transform: scale(1.5);
+    }
+    
+    #section{
+        height: 409px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    
+    .informações{
+        margin-left:-19px;
+    }
+
+    #integrantes , #links {
+        width: 378px;
+        height: 167px;
+        padding-bottom: 29px;
+    }
+
+    .acionamento{
+        margin-top: 12px;
+        margin-left: -37px;
+   }
+
+   #caixa , #chatbot{
+        width: 294px;
+        height: 420px;
+    }
+    
+    #caixa ul li {
+        padding: 15px;
+    }
+
+    #caixa ul li button {
+        height: 37px;
+        margin-top: 22px;
+    }
+    
+    #chatbot{
+        width: 243px;
+        margin-left: 13px;
+    }
+
+    #conversa{
+        transform: scale(1.4);
+        margin-left: 65px;
+        margin-top: 77px
+    }
+
+}
+
+/* Large devices (large laptops/desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+    #integrantes , #links {
+        width: 415px;
+        height: 167px;
+        padding-bottom: 29px;
+    }
+    
+    .acionamento{
+        margin-top: 12px;
+        margin-left:0;
+   }
+
+   #caixa , #chatbot{
+        width: 325px;
+        margin-right: 33px;
+        height: 420px;
+    }
+
+    #caixa ul li {
+        padding: 19px;
+    }
+
+    #chatbot{
+        margin-left: 10px;
+    }
+
+    #conversa{
+        transform: scale(1.65);
+        margin-left: 107px;
+        margin-top: 90px;
+    }
+
+}

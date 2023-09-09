@@ -1,0 +1,191 @@
+.topo{
+    display: flex;
+    margin-top: 69px;
+}
+
+#estrada {
+    background-image: url(../img/porto\ 4\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 100%;
+    height: 315px;
+}
+
+.topo aside{
+    margin-left: 50px;
+}
+
+#fundo{
+    background-image: url(../img/Rectangle\ 13.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#fundo p{
+    font-size: 30px;
+    padding:25px 25px;
+    text-align: left;
+}
+
+#fundo p span , #integrantes h1 span, #links li span , #caixa h1 span{
+    color:#01A1FD;
+}
+
+#portinho{
+    background-image: url(../img/Portinho\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 139px;
+    margin-top: -133px;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media (min-width:360px) and (max-width:599px){
+
+    .topo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 69px;
+    }
+    
+    #estrada {
+        height: 231px;
+        width: 551px;
+    }
+    
+    .topo aside{
+        margin-left: 0px;
+    }
+    
+    #fundo{
+        margin-top: 40px
+    }
+    
+    #fundo p{
+        font-size: 15px;
+        padding:25px 25px;
+    }
+
+    #fundo h2{
+        font-size: 15px;
+        margin-top: 80px;
+        margin-left: 129px;
+    }
+
+    #portinho{
+        width: 100px;
+        height: 139px;
+        margin-top: -133px;
+    }
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width:600px) and (max-width:767px){
+
+    .topo{
+        flex-direction: column;
+    }
+
+    #estrada {
+        height: 244px;
+        width: 597px;
+    }
+    
+    .topo aside{
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    #fundo{
+        width:600px;
+    }
+
+     
+    #fundo h2{
+        font-size: 25px;
+        margin-top: 144px;
+        padding-left: 144px;
+    }
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .topo{
+        flex-direction: column;
+    }
+
+    #estrada {
+        height: 313px;
+        margin-top: 33px;
+    }
+    
+    .topo aside{
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+
+    #fundo{
+        width:765px;
+    }
+
+    #fundo h2{
+        font-size: 25px;
+        margin-top: 144px;
+        padding-left: 144px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+
+    #estrada{
+        height: 238px;
+        width: 585px;
+    }
+
+    #fundo{
+        width: 333px;
+        height: 238px;
+    }
+
+    #fundo p{
+        font-size: 18px;
+        padding: 25px 24px;
+        text-align: left;
+    }
+    
+    #fundo h2{
+        font-size: 18px;
+        margin-top: 74px;
+        margin-left: 110px;
+    }
+}
+
+/* Large devices (large laptops/desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+    #estrada{
+        height: 213px;
+        width: 521px;
+    }
+
+    #fundo{
+        width: 611px;
+        height: 215px
+    }
+
+    #fundo p{
+        font-size: 23px;
+    }
+    
+    #fundo h2{
+        font-size: 23px;
+        margin-top: 66px;
+        margin-left: 115px;
+    }
+
+}

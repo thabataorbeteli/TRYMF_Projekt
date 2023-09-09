@@ -1,0 +1,123 @@
+.imagens{
+    display: flex;
+    margin-top: 170px;
+    align-items: center;
+    height: 377px;
+    background-color: #ECF1ED;
+}
+
+#imagem1 , #imagem2 {
+    width: 177px;
+    height: auto;
+    transform: scale(3.8);
+    margin-right: 272px;
+    margin-left: 247px;
+}
+
+#imagem2{
+    width: 240px;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media (min-width:360px) and (max-width:599px){
+
+    .imagens{
+        margin-top: 765px;
+        height: 0;
+        flex-direction: column;
+        margin-left: -41px;
+    }
+    
+    #imagem1 , #imagem2 {
+        width: 89px;
+        margin-left: 277px;
+    }
+    
+    #imagem2{
+        width: 120px;
+        margin-top: 177px;
+        margin-left: 256px;
+    }
+
+}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width:600px) and (max-width:767px){
+    
+    .imagens{
+        margin-top: 520px;
+        background-color: white;
+        flex-direction: column;
+    }
+    
+    #imagem1 , #imagem2 {
+        width: 197px;
+        transform: scale(2.3);
+        margin-left: 193px;
+        margin-top: 169px;
+    }
+    
+    #imagem2{
+        width: 268px;
+        margin-left: 162px;
+        margin-top: 168px;
+    }
+    
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .imagens{
+        margin-top: 413px;
+        background-color: white;
+        flex-direction: column;
+    }
+    
+    #imagem1 , #imagem2 {
+        width: 197px;
+        transform: scale(2.3);
+        margin-left: 227px;
+        margin-top: 133px;
+    }
+    
+    #imagem2{
+        width: 268px;
+        margin-left: -11px;
+        margin-top: 162px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+    
+    .imagens{
+        margin-top: 20px;
+        height: 339px;
+    }
+    
+    #imagem1 , #imagem2 {
+        transform: scale(2.5);
+        margin-left: 133px;
+        margin-right: 109px;
+    }
+
+    #imagem2{
+        width: 278px;
+    }
+}
+
+/* Large devices (large laptops/desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+    .imagens{
+        margin-top: 20px;
+        height: 339px;
+    }
+    
+    #imagem1 , #imagem2 {
+        transform: scale(2.9);
+        margin-left: 169px;
+    }
+
+}
