@@ -1,8 +1,22 @@
-# React + Vite
+TRYMF PROJEKT
+Challenge - Porto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Responsive Web Design
 
-Currently, two official plugins are available:
+RESPONSIVO
+ /* Extra small devices (phones, 600px and down) */
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+Mateus Viana Batista - RM 99530
+Michael José Bernardi da Silva - RM 99409
+Ricardo Correia Temple - RM 99721
+Thábata Orbeteli Viotto Santos - RM 550268
+Yago Taguchi Ruksenas - RM 97827
