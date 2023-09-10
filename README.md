@@ -4,15 +4,15 @@ Challenge - Porto
 Responsive Web Design
 
 RESPONSIVO
- /* Extra small devices (phones, 600px and down) */
-
- /* Small devices (portrait tablets and large phones, 600px and up) */
-
- /* Medium devices (landscape tablets, 768px and up) */
+ - Extra small devices (phones, 600px and down)
  
- /* Large devices (laptops/desktops, 992px and up) */
+ - Small devices (portrait tablets and large phones, 600px and up)
  
- /* Extra large devices (large laptops and desktops, 1200px and up) */
+ - Medium devices (landscape tablets, 768px and up)
+ 
+ - Large devices (laptops/desktops, 992px and up)
+ 
+ - Extra large devices (large laptops and desktops, 1200px and up) 
 
 
 Mateus Viana Batista - RM 99530
