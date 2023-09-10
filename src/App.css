@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Inter&display=swap');
-
 body{
     font-family:'Inter',sans-serif,Arial;
     font-weight: bold;
 }
 
 h1{
-    margin: 41px 0;
     font-size: 25px;
     text-align: center;
 }
