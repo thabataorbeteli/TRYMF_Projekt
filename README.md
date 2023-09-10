@@ -2,7 +2,7 @@ TRYMF PROJEKT
 Challenge - Porto
 
 Responsive Web Design
-Sprint3
+ - Sprint3
 
 RESPONSIVO
  - Extra small devices (phones, 600px and down)
